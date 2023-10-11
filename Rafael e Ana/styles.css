@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Estilos gerais do cabeçalho */
+header {
+    background-color: #FF0000; /* Vermelho */
+    color: #000000; /* Preto */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Preto */
+}
+
+/* Estilos específicos para Miles Morales */
+.header-miles {
+    background-image: url('miles-morales-background.jpg'); /* Substitua pelo caminho para sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.header-miles h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Um tipo de letra mais moderno */
+}
+
+.header-miles nav ul li a {
+    font-weight: bold;
+}
+
+/* Outros estilos para o site */
+/* ... */
+

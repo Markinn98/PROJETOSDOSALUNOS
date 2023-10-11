@@ -1,0 +1,37 @@
+header {
+    text-align: center;
+    background-color: #050505;
+    height: 90px;
+  }
+
+h1 {
+    color: #f8f3f3;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Impact', 'Charcoal', 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial' 'Black', 'sans serif'; 
+  }
+  body {
+    background-color: #040404; /*cor da borda*/
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+  }
+  .container .tab {
+    flex: 1;
+    background-color: #fdfafa; /*cor cabecalho dos links*/
+    padding: 09px;
+  }
+   /* Estiliza todos os links */
+   a{
+    color: rgb(49, 10, 141); /* Altere para a cor desejada */
+  }
+  .cabecalho {
+    background-color: rgb(7, 7, 7);
+    text-align: left;
+    padding: 01px;
+    color: rgb(12, 12, 12);
+  }

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="logo.png" href="seuarquivo.css">
+</head>
+<body>
+  <div class="img"></div>
+</body>
+</html>
+<style>
+.logo {
+  width: 150px; /* Ajuste a largura conforme necessário */
+  height: 100px; /* Ajuste a altura conforme necessário */
+  background-image: url('img');
+  background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+}</style>
